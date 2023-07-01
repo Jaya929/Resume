@@ -1,0 +1,86 @@
+header {
+	text-align: center;
+  	line-height: 5px;
+	background-color: #048099;
+	padding: 20px 0 20px 0;
+	vertical-align: middle;
+	}
+.grid-container {
+	display: grid;
+	grid-template-columns: 25% 75%;
+	grid-template-rows: 150px;
+	justify-content: space-evenly;
+	padding: 20px 0 20px 0;
+	vertical-align: middle;
+}
+.grid-container2 {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 40px 30px 15px 15px 20px;
+	justify-content: space-evenly;
+	padding: 0px 0 0px 0;
+	vertical-align: middle;
+}
+.grid-item{
+margin: 0;
+padding: 0;
+text-align: center;
+}
+#github{
+position: absolute;
+top: 0px; right: 10px;
+font-size: 12px;
+}
+img{
+float: left;
+margin:0 0 0 10px;
+border-radius: 50%;
+}
+header h1{
+  padding-top: 20px;
+}
+p{
+text-align: justify;
+font-size:18px;
+}
+.sub-heading1{
+padding-bottom: 0;
+margin-bottom: 0;
+}
+.sub-heading2{
+padding-bottom: 0;
+margin-bottom: 0;
+}
+.sub-heading3{
+margin: 0;
+}
+section{
+padding:5px 0 0 0;
+line-height:20px;
+}
+h5 {
+margin-bottom: 0;
+}
+
+td p{
+display: list-item;
+list style: disc inside;
+padding: 0 20px 0 14px;
+margin: 10px;
+line-height: 6px;
+}
+
+section p{
+margin: 8px 0 8px 0;
+}
+
+tr td p {
+margin: 5px 10px 5px 2px;
+}
+
+table {
+padding-left: 35px;
+}
+
+
+
